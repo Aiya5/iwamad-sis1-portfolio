@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aiya Gabdulkyzy — Portfolio</title>
+  <meta name="description" content="Portfolio of Aiya Gabdulkyzy, IT student at KBTU.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <a href="#top" class="logo">Aiya</a>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button id="themeToggle" aria-label="Switch theme">🌙</button>
+  </header>
+
+  <main id="top">
+
+    <!-- About -->
+   <section id="about">
+  <h1>Hi, I'm Aiya</h1>
+  <p>
+    I'm an IT student at KBTU in Almaty, Kazakhstan. This year I've been learning
+    frontend development — HTML, CSS, JavaScript, and React with TypeScript.
+    I've also touched a bit of backend basics.
+  </p>
+  <p>
+    I like making clean interfaces and figuring out how things work under the
+    hood. Right now I'm building a portfolio of small projects to practice what
+    I'm learning in class.
+  </p>
+   </section>  
+
+    <!-- Projects -->
+    <section id="projects">
+    <div class="projects">
+
+  <article>
+    <h3>Portfolio Design (Figma)</h3>
+    <p>My first portfolio design made in Figma. I planned the layout, colours and sections before writing code.</p>
+    <a href="https://www.figma.com/design/nWeYzwhTTpC9h4K4fpvoJz/Untitled?node-id=0-1" target="_blank" rel="noreferrer">Open design</a>
+  </article>
+
+  <article>
+    <h3>React Profile Card</h3>
+    <p>A profile card built in React with TypeScript. It has routing between pages, a like button with shared state, and one test.</p>
+    <a href="https://aiya5.github.io/iwamad-practice/" target="_blank" rel="noreferrer">Open site</a>
+  </article>
+
+  <article>
+    <h3>Design System Practice</h3>
+    <p>Built reusable Button, Card and Tag components from a Figma handoff, using CSS variables as design tokens.</p>
+    <a href="https://github.com/Aiya5/iwamad-practice/tree/week-05" target="_blank" rel="noreferrer">See code</a>
+  </article>
+
+    </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can send me a message here or find me on GitHub.</p>
+
+      <form id="contactForm" novalidate>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <button type="submit">Send</button>
+
+        <p id="formStatus"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Aiya Gabdulkyzy</p>
+    <p>
+      <a href="mailto:a_gabdulkyzy@KBTU.KZ">Email</a>
+      <a href="https://github.com/Aiya5" target="_blank" rel="noreferrer">GitHub</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
